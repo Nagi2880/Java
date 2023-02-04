@@ -9,7 +9,7 @@ public class condicionales{
         int resultado = sumanotas / notas.length;
         System.out.println("el promedio del alumno es:" + resultado);
 
-        if(resultado == 6 && materias.length == notas.length) {
+        if(resultado >= 6 && materias.length == notas.length) {
             System.out.println("el alumno exonero con un promedio de: " + resultado);
         }else{
             System.out.println("El alumno no exonero debido a que su nota es menor al minimo necesario");
